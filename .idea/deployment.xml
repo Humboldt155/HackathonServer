@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="hackathon155.westeurope.cloudapp.azure.com" autoUploadExternalChanges="true">
+    <serverData>
+      <paths name="hackathon155.westeurope.cloudapp.azure.com">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/pycharm_project_562" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
