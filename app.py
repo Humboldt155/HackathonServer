@@ -7,7 +7,10 @@ from gensim.models import KeyedVectors
 import pandas as pd
 import numpy as np
 
+# Это просто нужно, для того, чтобы можно было отдавать данные
 from flask_cors import CORS
+app = Flask(__name__)
+CORS(app)
 
 from data import get_users
 users = get_users()
@@ -33,9 +36,6 @@ model_categories = Word2Vec.load('models/w2v_64m_sg0_i220_window9_size160_Models
 
 # Модель для предложений по ближайшим покупкам (почему-то выдает ошибку, пока не открывать
 #model_future_products = Word2Vec.load('models/w2v_64m_sg0_i220_window6_size150_lessAVS_during_2weeks')
-
-app = Flask(__name__)
-CORS(app)
 
 # Приветствие
 @app.route('/')
