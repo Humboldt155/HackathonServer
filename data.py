@@ -4,6 +4,7 @@ def get_users():
     users = [
         {
             'username': 'assistant',
+            'card': '98657464537384585',
             'password': 'jump155',
             'name': 'Artem',
             'telephone': '+7 (495) 123-456-78',
@@ -16,6 +17,7 @@ def get_users():
         },
         {
             'username': 'client1',
+            'card': '98675646364748585',
             'password': 'jump155',
             'name': 'Veronika',
             'telephone': '+7 (495) 786-543-21',
@@ -28,18 +30,20 @@ def get_users():
         },
         {
             'username': 'client2',
+            'card': '95342673830484115',
             'password': 'jump155',
             'name': 'Petr',
             'telephone': '+7 (495) 763-234-21',
             'email': 'artem@jump.com',
-            'is_authorized': False,
-            'favorite_shop': 'Kollontai',
+            'is_authorized': True,
+            'favorite_shop': 'Troyka',
             'favorite_shop_accepted': True,
             'Sity': 'Moscow',
             'quartile': 2
         },
         {
             'username': 'client3',
+            'card': '98623243564675685',
             'password': 'jump155',
             'name': 'Nail',
             'telephone': '+7 (495) 987-234-43',
@@ -47,7 +51,7 @@ def get_users():
             'is_authorized': True,
             'favorite_shop': 'Kollontai',
             'favorite_shop_accepted': False,
-            'Sity': 'Moscow',
+            'Sity': 'Saint Petersburg',
             'quartile': 2
         }
     ]
