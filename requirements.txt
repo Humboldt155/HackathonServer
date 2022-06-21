@@ -19,7 +19,7 @@ jmespath==0.9.3
 MarkupSafe==1.0
 mkl-fft==1.0.4
 mkl-random==1.0.1
-numpy==1.15.1
+numpy==1.22.0
 openpyxl==2.5.6
 pandas==0.23.4
 pycparser==2.18
